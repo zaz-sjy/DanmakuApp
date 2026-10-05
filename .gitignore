@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 本机 Android SDK 路径（每台机器都不一样，绝对不能提交）
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin 编译器的会话目录
+.kotlin/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
